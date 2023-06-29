@@ -7,17 +7,15 @@ int main(){
     double circumference;
     double area;
 
-    printf("Enter radious of a circle: ");
+    printf("\nEnter radious of a circle: ");
     scanf("%lf", &radius);
 
     circumference = 2*PI*radius;
 
     area = PI*radius*radius;
 
-    printf("circumference: %lf", circumference);
-    printf("area: %lf", area);
-
-    
+    printf("\ncircumference: %lf", circumference);
+    printf("\narea: %lf", area);
 
     return 0;
 }
