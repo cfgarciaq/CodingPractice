@@ -17,7 +17,7 @@ int main(){
     C = A*A + B*B;
     C = sqrt(C);
 
-    printf("Side C: %lf", C);    
+    printf("Side C: %lf", C);
 
     return 0;
 }
