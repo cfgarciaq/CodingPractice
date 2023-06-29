@@ -18,13 +18,13 @@ int main(){
                             // fgets allows to enter text that includes spaces
     name[strlen(name)-1] = '\0'; //replace \n with \0
 
-    printf("What year you where born? (yyyy): ");
+    printf("What year you where born? (yyyy): "); //we assume the user always enter a valid date no bigger than current date or less than 1900
     scanf("%d", &b_year);
 
-    printf("What month you where born? (mm): ");
+    printf("What month you where born? (mm): "); //we asume the user olways enter a valid mont from 01 to 12
     scanf("%d", &b_month);
 
-    printf("What day you where born? (dd): ");
+    printf("What day you where born? (dd): "); //we assume the user enters the correct day, from 01 to 28,30 or 31 depending
     scanf("%d", &b_day);
 
     time_t t = time(NULL);
