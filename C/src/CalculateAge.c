@@ -15,6 +15,7 @@ int main(){
 
     printf("Whats your name: ");
     fgets(name, 25, stdin); // it adds an \n at the end of the string making the printf jump a line
+                            // fgets allows to enter text that includes spaces
     name[strlen(name)-1] = '\0'; //replace \n with \0
 
     printf("What year you where born? (yyyy): ");
