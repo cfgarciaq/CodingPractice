@@ -11,10 +11,10 @@ int main(){
     fgets(name, 25, stdin); // it adds an \n at the end of the string making the printf jump a line
     name[strlen(name)-1] = '\0'; //replace \n with \0
 
-    print("How old are you?");
+    printf("How old are you?");
     scanf("%d", &age);
 
-    print("Hi, %s! How are you?", name);
+    printf("Hi, %s! How are you?", name);
 
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
