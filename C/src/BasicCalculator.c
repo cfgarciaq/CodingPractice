@@ -44,10 +44,8 @@ int main(){
     case '/':
         result = num1 / num2;
         printf("\nResult: %.2lf", result);
-        break;    
+        break;
     default:
         break;
     }
-
-
 }
